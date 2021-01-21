@@ -534,6 +534,26 @@ color: #FFFFFF;
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
+	background-color: #fff;
+	height: 447px;
+	background-position:right center;
+	background-size: initial;
+	
+		position: relative;
+    overflow: hidden;
+ /*    background-size: 108%; */
+	
+	background-repeat: no-repeat;
+}
+.mainslider__content_white .mainslider__text1 {
+	color: #141414;
+}
+.mainslider__content_white .mainslider__text2 {
+	color: #141414;
+}
+
+.mainslider__img_marg {
+	margin-right: 140px;
 }
 
 .mainblock__content {
@@ -580,15 +600,7 @@ color: #FFFFFF;
 .mainslider__slide {
 	height: 100%;
 }
-.mainslider__content {
-	position: relative;
-    background-position: center;
-    overflow: hidden;
- /*    background-size: 108%; */
-	background-size: cover;
-	
-	background-repeat: no-repeat;
-}
+
 
 .sliderarrow {
 	border: 1px solid rgb(251, 10, 42);
