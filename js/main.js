@@ -34,7 +34,7 @@ $(document).ready(function () {
 				 {
 				  breakpoint: 1385,
 				  settings: {
-					slidesToShow: 3,
+					slidesToShow: 4,
 					
 				  }
 				},
