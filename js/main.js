@@ -182,8 +182,8 @@ $(document).ready(function () {
 				slidesToScroll: 1,
 				arrows: true,
 				  centerPadding: '0',
-				  nextArrow: $(this).parent().find('.newslist__right'),
-				  prevArrow: $(this).parent().find('.newslist__left'),
+				  nextArrow: $(this).parent().find('.productslider__right'),
+				  prevArrow: $(this).parent().find('.productslider__left'),
 					dots: false,
 					centerPadding: 20,
 					responsive: [
