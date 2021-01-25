@@ -3403,17 +3403,6 @@ line-height: 120%;
 
 	}
 
-.text ul li:after {
-	content: "";
-	position: absolute;
-	width: 8px;
-	height: 8px;
-	left: 0;
-	top: 10px;
-	border-radius: 50%;
-	background: #25B757;
-}
-
 ul.listcheck  {
 	list-style: none;
 	padding: 0;
@@ -4398,6 +4387,50 @@ width: fit-content;
 .productlist__items {
 	margin: -9px;
 }
+
+.pagecontent h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 140%;
+	color: #141414;
+}
+.text__list {
+	display: flex;
+	
+}
+.text {
+	margin-bottom: 20px;
+}
+.text ul{
+		margin-right: 55px;
+
+}
+
+.text ul li {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 100%;
+	color: #141414;
+	padding-left: 28px;
+	background-image: url(/images/list.png);
+	background-position: left top 1px;
+	background-repeat: no-repeat;
+	background-size: initial;
+	min-height: 20px;
+}
+.text p {
+	font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: rgba(20, 20, 20,1 );
+}
+
 
 @media (max-width: 1415px) {
 	.headercontacts__main {		
@@ -5894,7 +5927,35 @@ line-height: 15px;
 	.pagecover__mask {
 		padding: 50px 0 40px 0;
 	}
-	
+	.text__list {
+		display: block;
+	}
+	.text p {
+		font-size: 12px;
+	}
+	.text ul li {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.text ul {
+		margin-right: 0;
+	}
+	.page h1 {
+		font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 100%;
+/* identical to box height, or 22px */
+
+
+color: #141414;
+	}
+	.breadcrumbs ul li {
+		padding-right: 0;
+	}
+	.breadcrumbs ul li+li:before {
+		padding-right: 5px;
+	}
 }
 
 
