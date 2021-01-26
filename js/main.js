@@ -556,9 +556,9 @@ $(function () {
 		})(jQuery);
 	}
 	else {
-		$('.producttabs__content h2').click(function (event) {
+		$('.producttabs__content .producttabs__title').click(function (event) {
 		/* $(this).closest('.accordeon-js').find('.accordeon-contentjs').not($(this).next()).hide(300).removeClass('active'); */
-		$(this).closest('.producttabs__content').find('.producttabs__main h2').not($(this)).removeClass('active');
+		$(this).closest('.producttabs__content').find('.producttabs__main .producttabs__title').not($(this)).removeClass('active');
 		$(this).toggleClass('active');
 		$(this).next('.producttabs__main').slideToggle().toggleClass('active');
 	});
