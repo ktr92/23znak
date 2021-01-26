@@ -137,7 +137,10 @@ $(document).ready(function () {
 	});
 	
 	$('.dselect_js').each(function() {
-		$(this).select2();
+		$(this).select2();		
+	});
+	$('.selcity_js').each(function() {
+		$(this).select2();		
 	});
 	
 	/* $('.productlist__item').each(function() {
@@ -145,13 +148,6 @@ $(document).ready(function () {
 		$(this).css('height', '424px');
 	}); */
 	
-	if ($(window).width() > 1023) {
-		$('.radiotype2').each(function() {
-			var radioheight;
-			radioheight = 29 * ($('.radiotype2 > label').length / 2);
-			$(this).css('height', radioheight);
-		});
-	}
 	
 	/* new WOW().init(); */
 	try {
